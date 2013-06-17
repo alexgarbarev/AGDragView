@@ -1,4 +1,6 @@
 AGDragView
 ==========
 
-UIView with ability to fullscreen expand by scroll gesture
+UIView with ability maximize by 'pull' gesture
+
+Look at "AGDragViewExample" demo project to see how it works
