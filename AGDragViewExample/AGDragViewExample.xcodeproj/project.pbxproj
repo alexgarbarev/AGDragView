@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAF0536F176F74C700581607 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF0536E176F74C700581607 /* UIKit.framework */; };
+		FAF05371176F74C700581607 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF05370176F74C700581607 /* Foundation.framework */; };
+		FAF05373176F74C700581607 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF05372176F74C700581607 /* CoreGraphics.framework */; };
+		FAF05379176F74C700581607 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAF05377176F74C700581607 /* InfoPlist.strings */; };
+		FAF0537B176F74C700581607 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF0537A176F74C700581607 /* main.m */; };
+		FAF0537F176F74C700581607 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF0537E176F74C700581607 /* AppDelegate.m */; };
+		FAF05381176F74C700581607 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FAF05380176F74C700581607 /* Default.png */; };
+		FAF05383176F74C700581607 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAF05382176F74C700581607 /* Default@2x.png */; };
+		FAF05385176F74C700581607 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAF05384176F74C700581607 /* Default-568h@2x.png */; };
+		FAF05388176F74C700581607 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF05387176F74C700581607 /* ViewController.m */; };
+		FAF0538B176F74C700581607 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAF05389176F74C700581607 /* ViewController.xib */; };
+		FAF05395176F759600581607 /* AGDragView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF05394176F759600581607 /* AGDragView.m */; };
+		FAF05397176F78BB00581607 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAF05396176F78BB00581607 /* HeaderView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FAF0536B176F74C700581607 /* AGDragViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AGDragViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF0536E176F74C700581607 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FAF05370176F74C700581607 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FAF05372176F74C700581607 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FAF05376176F74C700581607 /* AGDragViewExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AGDragViewExample-Info.plist"; sourceTree = "<group>"; };
+		FAF05378176F74C700581607 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FAF0537A176F74C700581607 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAF0537C176F74C700581607 /* AGDragViewExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AGDragViewExample-Prefix.pch"; sourceTree = "<group>"; };
+		FAF0537D176F74C700581607 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAF0537E176F74C700581607 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAF05380176F74C700581607 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FAF05382176F74C700581607 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FAF05384176F74C700581607 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FAF05386176F74C700581607 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FAF05387176F74C700581607 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FAF0538A176F74C700581607 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		FAF05393176F759600581607 /* AGDragView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGDragView.h; sourceTree = "<group>"; };
+		FAF05394176F759600581607 /* AGDragView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGDragView.m; sourceTree = "<group>"; };
+		FAF05396176F78BB00581607 /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAF05368176F74C700581607 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF0536F176F74C700581607 /* UIKit.framework in Frameworks */,
+				FAF05371176F74C700581607 /* Foundation.framework in Frameworks */,
+				FAF05373176F74C700581607 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAF05362176F74C700581607 = {
+			isa = PBXGroup;
+			children = (
+				FAF05392176F759600581607 /* AGDragView */,
+				FAF05374176F74C700581607 /* AGDragViewExample */,
+				FAF0536D176F74C700581607 /* Frameworks */,
+				FAF0536C176F74C700581607 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAF0536C176F74C700581607 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAF0536B176F74C700581607 /* AGDragViewExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAF0536D176F74C700581607 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAF0536E176F74C700581607 /* UIKit.framework */,
+				FAF05370176F74C700581607 /* Foundation.framework */,
+				FAF05372176F74C700581607 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAF05374176F74C700581607 /* AGDragViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				FAF0537D176F74C700581607 /* AppDelegate.h */,
+				FAF0537E176F74C700581607 /* AppDelegate.m */,
+				FAF05386176F74C700581607 /* ViewController.h */,
+				FAF05387176F74C700581607 /* ViewController.m */,
+				FAF05389176F74C700581607 /* ViewController.xib */,
+				FAF05396176F78BB00581607 /* HeaderView.xib */,
+				FAF05375176F74C700581607 /* Supporting Files */,
+			);
+			path = AGDragViewExample;
+			sourceTree = "<group>";
+		};
+		FAF05375176F74C700581607 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAF05376176F74C700581607 /* AGDragViewExample-Info.plist */,
+				FAF05377176F74C700581607 /* InfoPlist.strings */,
+				FAF0537A176F74C700581607 /* main.m */,
+				FAF0537C176F74C700581607 /* AGDragViewExample-Prefix.pch */,
+				FAF05380176F74C700581607 /* Default.png */,
+				FAF05382176F74C700581607 /* Default@2x.png */,
+				FAF05384176F74C700581607 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAF05392176F759600581607 /* AGDragView */ = {
+			isa = PBXGroup;
+			children = (
+				FAF05393176F759600581607 /* AGDragView.h */,
+				FAF05394176F759600581607 /* AGDragView.m */,
+			);
+			path = AGDragView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAF0536A176F74C700581607 /* AGDragViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF0538E176F74C700581607 /* Build configuration list for PBXNativeTarget "AGDragViewExample" */;
+			buildPhases = (
+				FAF05367176F74C700581607 /* Sources */,
+				FAF05368176F74C700581607 /* Frameworks */,
+				FAF05369176F74C700581607 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AGDragViewExample;
+			productName = AGDragViewExample;
+			productReference = FAF0536B176F74C700581607 /* AGDragViewExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAF05363176F74C700581607 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Aleksey Garbarev";
+			};
+			buildConfigurationList = FAF05366176F74C700581607 /* Build configuration list for PBXProject "AGDragViewExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FAF05362176F74C700581607;
+			productRefGroup = FAF0536C176F74C700581607 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAF0536A176F74C700581607 /* AGDragViewExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAF05369176F74C700581607 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF05379176F74C700581607 /* InfoPlist.strings in Resources */,
+				FAF05381176F74C700581607 /* Default.png in Resources */,
+				FAF05383176F74C700581607 /* Default@2x.png in Resources */,
+				FAF05385176F74C700581607 /* Default-568h@2x.png in Resources */,
+				FAF0538B176F74C700581607 /* ViewController.xib in Resources */,
+				FAF05397176F78BB00581607 /* HeaderView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAF05367176F74C700581607 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF0537B176F74C700581607 /* main.m in Sources */,
+				FAF0537F176F74C700581607 /* AppDelegate.m in Sources */,
+				FAF05388176F74C700581607 /* ViewController.m in Sources */,
+				FAF05395176F759600581607 /* AGDragView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAF05377176F74C700581607 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAF05378176F74C700581607 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FAF05389176F74C700581607 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAF0538A176F74C700581607 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAF0538C176F74C700581607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FAF0538D176F74C700581607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAF0538F176F74C700581607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AGDragViewExample/AGDragViewExample-Prefix.pch";
+				INFOPLIST_FILE = "AGDragViewExample/AGDragViewExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FAF05390176F74C700581607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AGDragViewExample/AGDragViewExample-Prefix.pch";
+				INFOPLIST_FILE = "AGDragViewExample/AGDragViewExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAF05366176F74C700581607 /* Build configuration list for PBXProject "AGDragViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF0538C176F74C700581607 /* Debug */,
+				FAF0538D176F74C700581607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF0538E176F74C700581607 /* Build configuration list for PBXNativeTarget "AGDragViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF0538F176F74C700581607 /* Debug */,
+				FAF05390176F74C700581607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAF05363176F74C700581607 /* Project object */;
+}
